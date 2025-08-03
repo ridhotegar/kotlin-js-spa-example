@@ -9,7 +9,7 @@ A minimal Kotlin/JS project using Gradle that demonstrates how to build a simple
 To build the Kotlin/JS project and generate the static JavaScript output:
 
 ```bash
-  ./gradlew browserProductionWebpack
+./gradlew browserProductionWebpack
 ```
 
 This compiles your Kotlin code into JavaScript and places the output in:
@@ -35,7 +35,7 @@ or
 
 - Navigate to the output directory:
 ```bash
-  cd build/distributions
+cd build/distributions
 ```
 - Start a static web server (e.g., Python's built-in HTTP server):
 ```bash
